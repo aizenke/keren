@@ -1,0 +1,292 @@
+[
+    {
+        "country": "ae",
+        "proxy": "193.123.66.187:34501",
+        "latency": 2072
+    },
+    {
+        "country": "al",
+        "proxy": "31.171.152.215:8443",
+        "latency": 1925
+    },
+    {
+        "country": "am",
+        "proxy": "2.56.204.156:8080",
+        "latency": 1941
+    },
+    {
+        "country": "at",
+        "proxy": "94.177.8.9:443",
+        "latency": 1833
+    },
+    {
+        "country": "au",
+        "proxy": "91.108.241.159:2053",
+        "latency": 1861
+    },
+    {
+        "country": "be",
+        "proxy": "34.22.142.117:443",
+        "latency": 1808
+    },
+    {
+        "country": "bg",
+        "proxy": "193.37.215.115:443",
+        "latency": 1861
+    },
+    {
+        "country": "br",
+        "proxy": "164.152.61.166:50478",
+        "latency": 1868
+    },
+    {
+        "country": "ca",
+        "proxy": "38.113.188.117:8443",
+        "latency": 1612
+    },
+    {
+        "country": "ch",
+        "proxy": "45.95.232.236:2053",
+        "latency": 1814
+    },
+    {
+        "country": "cn",
+        "proxy": "116.228.40.230:21916",
+        "latency": 2153
+    },
+    {
+        "country": "cy",
+        "proxy": "212.31.114.110:37768",
+        "latency": 1957
+    },
+    {
+        "country": "cz",
+        "proxy": "81.91.214.85:443",
+        "latency": 1847
+    },
+    {
+        "country": "de",
+        "proxy": "49.12.2.21:8443",
+        "latency": 876
+    },
+    {
+        "country": "dk",
+        "proxy": "217.78.237.53:2053",
+        "latency": 1834
+    },
+    {
+        "country": "ee",
+        "proxy": "38.180.10.150:443",
+        "latency": 1851
+    },
+    {
+        "country": "es",
+        "proxy": "185.114.72.92:2053",
+        "latency": 1757
+    },
+    {
+        "country": "fi",
+        "proxy": "78.153.139.249:8443",
+        "latency": 1837
+    },
+    {
+        "country": "fr",
+        "proxy": "45.77.62.84:8443",
+        "latency": 1765
+    },
+    {
+        "country": "gb",
+        "proxy": "5.144.181.144:2053",
+        "latency": 1762
+    },
+    {
+        "country": "hk",
+        "proxy": "38.55.195.234:49850",
+        "latency": 2063
+    },
+    {
+        "country": "hu",
+        "proxy": "77.91.72.82:443",
+        "latency": 1838
+    },
+    {
+        "country": "id",
+        "proxy": "103.133.223.51:2096",
+        "latency": 2181
+    },
+    {
+        "country": "ie",
+        "proxy": "3.249.49.224:443",
+        "latency": 1752
+    },
+    {
+        "country": "il",
+        "proxy": "77.91.69.146:443",
+        "latency": 1898
+    },
+    {
+        "country": "in",
+        "proxy": "65.20.76.125:8443",
+        "latency": 2044
+    },
+    {
+        "country": "ir",
+        "proxy": "37.152.182.80:2053",
+        "latency": 2111
+    },
+    {
+        "country": "it",
+        "proxy": "172.232.192.75:443",
+        "latency": 1813
+    },
+    {
+        "country": "jp",
+        "proxy": "126.26.53.234:31769",
+        "latency": 1198
+    },
+    {
+        "country": "kr",
+        "proxy": "118.39.69.146:50000",
+        "latency": 1791
+    },
+    {
+        "country": "kz",
+        "proxy": "45.80.208.39:443",
+        "latency": 2053
+    },
+    {
+        "country": "lt",
+        "proxy": "94.131.13.164:443",
+        "latency": 1853
+    },
+    {
+        "country": "lu",
+        "proxy": "104.244.79.124:443",
+        "latency": 1810
+    },
+    {
+        "country": "lv",
+        "proxy": "94.131.104.64:80",
+        "latency": 1865
+    },
+    {
+        "country": "md",
+        "proxy": "45.84.0.200:8443",
+        "latency": 1893
+    },
+    {
+        "country": "mu",
+        "proxy": "41.76.42.118:443",
+        "latency": 2248
+    },
+    {
+        "country": "mx",
+        "proxy": "216.238.71.107:443",
+        "latency": 1779
+    },
+    {
+        "country": "my",
+        "proxy": "45.195.69.98:30726",
+        "latency": 2138
+    },
+    {
+        "country": "nl",
+        "proxy": "92.119.114.145:2083",
+        "latency": 936
+    },
+    {
+        "country": "no",
+        "proxy": "91.225.217.50:888",
+        "latency": 1835
+    },
+    {
+        "country": "nz",
+        "proxy": "119.224.58.125:443",
+        "latency": 2338
+    },
+    {
+        "country": "pl",
+        "proxy": "70.34.250.240:2053",
+        "latency": 1823
+    },
+    {
+        "country": "pr",
+        "proxy": "76.72.247.50:37456",
+        "latency": 2034
+    },
+    {
+        "country": "pt",
+        "proxy": "45.83.142.46:8000",
+        "latency": 1915
+    },
+    {
+        "country": "ro",
+        "proxy": "65.38.120.186:2053",
+        "latency": 1870
+    },
+    {
+        "country": "rs",
+        "proxy": "38.180.100.80:443",
+        "latency": 1933
+    },
+    {
+        "country": "ru",
+        "proxy": "89.23.113.215:8443",
+        "latency": 1114
+    },
+    {
+        "country": "sa",
+        "proxy": "158.101.247.242:22343",
+        "latency": 2300
+    },
+    {
+        "country": "se",
+        "proxy": "77.221.141.255:8443",
+        "latency": 1049
+    },
+    {
+        "country": "sg",
+        "proxy": "64.49.14.41:2053",
+        "latency": 2110
+    },
+    {
+        "country": "sk",
+        "proxy": "5.180.55.220:8443",
+        "latency": 1897
+    },
+    {
+        "country": "th",
+        "proxy": "45.144.167.46:19816",
+        "latency": 2175
+    },
+    {
+        "country": "tr",
+        "proxy": "31.210.78.76:8443",
+        "latency": 1866
+    },
+    {
+        "country": "tw",
+        "proxy": "37.128.253.213:8443",
+        "latency": 2042
+    },
+    {
+        "country": "ua",
+        "proxy": "91.218.212.223:443",
+        "latency": 1910
+    },
+    {
+        "country": "us",
+        "proxy": "20.186.10.215:23361",
+        "latency": 741
+    },
+    {
+        "country": "uz",
+        "proxy": "92.223.44.19:2096",
+        "latency": 2246
+    },
+    {
+        "country": "vn",
+        "proxy": "103.45.232.251:50678",
+        "latency": 2304
+    }
+]

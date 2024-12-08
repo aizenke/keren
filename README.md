@@ -21,15 +21,13 @@ Kode ini masih perlu banyak perbaikan, jadi silahkan berkontribusi dan berikan P
 4. Masukkan link daftar proxy kalian ke dalam environemnt variable `PROXY_BANK_URL`
 5. (Optional) Masukkan link target reverse proxy ke environment variable `REVERSE_PROXY_TARGET`
 6. Deploy
-7. Buka `https://DOMAIN_WORKER_KALIAN/sub`
 
-- Contoh daftar proxy [proxyList.txt](https://raw.githubusercontent.com/dickymuliafiqri/Nautica/refs/heads/main/proxyList.txt)
+- Contoh daftar proxy [proxyList.json](https://raw.githubusercontent.com/JeelsBoobz/Nautica/refs/heads/clone/proxyList.json)
 - Contoh reverse proxy [example.com](https://example.com)
 
 # Endpoint
 
 - `/` -> Halaman utama reverse proxy
-- `/sub` -> Halaman sub/list akun
 
 # Footnote
 

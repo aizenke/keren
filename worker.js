@@ -7,6 +7,11 @@ let proxyIP = "";
 // Constant
 const WS_READY_STATE_OPEN = 1;
 const WS_READY_STATE_CLOSING = 2;
+const CORS_HEADER_OPTIONS = {
+  "Access-Control-Allow-Origin": "*",
+  "Access-Control-Allow-Methods": "GET,HEAD,POST,OPTIONS",
+  "Access-Control-Max-Age": "86400",
+};
 
 async function getProxyList(env, forceReload = false) {
     if (!cachedProxyList.length || forceReload) {
@@ -36,19 +41,25 @@ async function getProxyList(env, forceReload = false) {
 }
 
 async function reverseProxy(request, target) {
-    const targetUrl = new URL(request.url);
-    targetUrl.hostname = target;
+  const targetUrl = new URL(request.url);
+  const targetChunk = target.split(":");
 
-    const modifiedRequest = new Request(targetUrl, request);
+  targetUrl.hostname = targetChunk[0];
+  targetUrl.port = targetChunk.toString() || "443";
 
-    modifiedRequest.headers.set("X-Forwarded-Host", request.headers.get("Host"));
+  const modifiedRequest = new Request(targetUrl, request);
 
-    const response = await fetch(modifiedRequest);
+  modifiedRequest.headers.set("X-Forwarded-Host", request.headers.get("Host"));
 
-    const newResponse = new Response(response.body, response);
-    newResponse.headers.set("X-Proxied-By", "Cloudflare Worker");
+  const response = await fetch(modifiedRequest);
 
-    return newResponse;
+  const newResponse = new Response(response.body, response);
+  for (const [key, value] of Object.entries(CORS_HEADER_OPTIONS)) {
+    newResponse.headers.set(key, value);
+  }
+  newResponse.headers.set("X-Proxied-By", "Cloudflare Worker");
+
+  return newResponse;
 }
 
 function getProxyCC(cc, proxyList) {

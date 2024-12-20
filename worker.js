@@ -99,6 +99,9 @@ export default {
         } catch (err) {
             return new Response(`An error occurred: ${err.toString()}`, {
                 status: 500,
+                headers: {
+                    ...CORS_HEADER_OPTIONS,
+                },
             });
         }
     },

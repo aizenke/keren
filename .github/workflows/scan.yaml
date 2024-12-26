@@ -15,7 +15,7 @@ jobs:
       - uses: actions/checkout@v3
         with:
           repository: "aizenke/keren"
-          token: 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
+          token: abc
       - name: Use Bun
         uses: oven-sh/setup-bun@v2
       - name: Start Scan
